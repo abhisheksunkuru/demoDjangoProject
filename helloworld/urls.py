@@ -21,4 +21,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('tryHello.urls')),
     path('api/', include('library.urls')),
+    path('api/v2/', include('ecommerce_store.py'))
 ]
