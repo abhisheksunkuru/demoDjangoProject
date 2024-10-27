@@ -39,7 +39,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'tryHello',
     'library',
-    'ecommerce_store'
+    'ecommerce_store',
+    'django_extensions'
 ]
 
 MIDDLEWARE = [
